@@ -16,7 +16,7 @@ Abrimos Consola y Colocamos
 
 git init
 
-git clone https://github.com/GangosoO/Crowdar-POM-AALURE-AAA.git
+git clone https://github.com/GangosoO/Crowdar-POM-ALLURE-AAA.git
 
 # 3.- Instalar dependencias del Script 📝
 
