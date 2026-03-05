@@ -10,7 +10,7 @@
     "test-Login": "cypress run --spec 'cypress/e2e/UI/Inicio_de_sesión.cy.js' --browser chrome --headed --env allure=true",
     "test-Carrito": "cypress run --spec 'cypress/e2e/UI/Carrito_de_compras.cy.js' --browser firefox --headed --env allure=true",
     "allure:report": "allure generate allure-results --clean -o allure-report && allure open allure-report",
-    "test-api": "cypress run --spec 'cypress/e2e/api/sauceDemo.cy.js' --browser chrome --headed --env allure=true",
+    "test-api": "cypress run --spec 'cypress/e2e/API/sauceDemoStatus.cy.js' --browser chrome --headed --env allure=true",
     "test-smoke": "cypress run --spec 'cypress/e2e/Smoke_Regression/Smoke.cy.js' --browser chrome --headed --env allure=true",
     "test-regression": "cypress run --spec 'cypress/e2e/Smoke_Regression/Regression.cy.js' --browser chrome --headed --env allure=true"
   },
